@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Карточки сказок</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="main2.css">
+
+</head>
+<body>
+
+<div class="scene scene--card">
+    <div class="cardflip">
+        <div class="card__face card__face--front">front</div>
+        <div class="card__face card__face--back">back</div>
+    </div>
+
+
+</div>
+
+<div class="scene scene--card">
+    <div class="cardflip1">
+        <div class="card__face card__face--front">front</div>
+        <div class="card__face card__face--back">back</div>
+    </div>
+
+
+</div>
+<p>Click card to flip.</p>
+
+
+<script>
+    var card = document.querySelector('.cardflip');
+    card.addEventListener('click', function () {
+        card.classList.toggle('is-flipped');
+    });
+
+    var card2 = document.querySelector('.cardflip1');
+    card2.addEventListener('click', function () {
+        card2.classList.toggle('is-flipped');
+    });
+</script>
+
+</body>
+</html>
