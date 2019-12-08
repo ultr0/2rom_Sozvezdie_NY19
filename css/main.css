@@ -7,7 +7,9 @@ html, body, .grid-container {
     /*  border: 1px solid red; */
     position: relative;
 }
-
+body{
+    background: url(back.png) no-repeat no-repeat;
+}
 .grid-container {
     display: grid;
     grid-template-columns: 0.5fr 1fr 0.5fr 1fr 0.5fr 1fr 0.5fr;
@@ -93,7 +95,7 @@ html, body, .grid-container {
 }
 
 .card_face-back {
-    background: blue;
+    background: transparent;
     transform: rotateY(180deg);
 }
 
