@@ -57,6 +57,7 @@ html, body, .grid-container {
     transform-style: preserve-3d;
     cursor: pointer;
     position: relative;
+    z-index: 1;
 }
 
 .cardflip.flip {
@@ -67,15 +68,12 @@ html, body, .grid-container {
     /*left: 50%;*/
     /*top: 50%;*/
     /*bottom: 50%;*/
+    z-index: 1000;
     animation: zoom 1s ease-in-out;
     animation-fill-mode: forwards;
     /*transform: rotateY(180deg);*/
 }
 
-.zoom {
-    animation: zoom 1s ease-in-out;
-    animation-fill-mode: forwards;
-}
 
 .card_face {
     position: absolute;
