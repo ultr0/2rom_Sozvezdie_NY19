@@ -91,7 +91,7 @@ body{
 }
 
 .card_face-front {
-    background: red;
+    background: transparent;
 }
 
 .card_face-back {
