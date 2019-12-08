@@ -95,6 +95,7 @@ body{
 }
 
 .card_face-back {
+    margin: 25px 0;
     background: transparent;
     transform: rotateY(180deg);
 }
@@ -161,7 +162,7 @@ td {
         transform: rotateY(0deg) scale(1) translate(0px, 0px);
     }
     to {
-        transform: rotateY(180deg) scale(1.2) translate(10px, 10px);
+        transform: rotateY(180deg) scale(1.3) translate(-1px, -1px);
     }
 }
 
